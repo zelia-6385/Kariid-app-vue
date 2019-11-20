@@ -1,0 +1,112 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #6c757d !important;
+}
+
+/* Congratulation step */
+.congratulations {
+  border: 1px solid #ced4da;
+  width: 780px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.congratulations-header {
+  text-align: center;
+  width: 60%;
+  color: #007bff;
+  margin: auto;
+}
+
+.congratulations-img {
+  margin: auto;
+  display: block;
+}
+
+/* Card text styles */
+.header-text {
+  color: #6c757d;
+}
+
+.label-text {
+  color: #526891;
+}
+
+.pr-main {
+  border: 1px solid #ced4da;
+  width: 780px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+/* Buttons styles */
+.wrapper-buttons {
+  display: flex;
+  width: 100%;
+}
+
+.left-button {
+  color: #aeafb3 !important;
+}
+
+.right-button-next {
+  margin-left: auto;
+  background-color: #ff5997 !important;
+  outline: none;
+}
+
+.right-button-skip {
+  margin-left: auto;
+  background-color: #ff0060 !important;
+  outline: none;
+}
+
+.create-account-button {
+  width: 100%;
+  background-color: #ff0060 !important;
+  outline: none;
+}
+
+/* Components animation */
+.slide-enter {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.slide-enter-active {
+  transition: all 0.8s ease;
+}
+
+/* Float-label styles */
+.vfl-label-on-input {
+  top: -2px !important;
+  left: 15px !important;
+}
+
+.vfl-label-on-focus {
+  color: #007bff;
+}
+
+.vfl-label + input {
+  padding-bottom: 0;
+  font-size: 100%;
+  border: 0;
+  border: 1px solid #aaa;
+  transition: border 0.2s;
+}
+
+.vfl-label + select {
+  padding-bottom: 0;
+  font-size: 100%;
+  border: 0;
+  border: 1px solid #aaa;
+  transition: border 0.2s;
+}
